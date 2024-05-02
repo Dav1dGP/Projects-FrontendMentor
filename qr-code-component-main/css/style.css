@@ -6,29 +6,26 @@
 }
 
 
+/* font-size en rem no en px */
 body{
-font-size: 15px;
-background-color: var(--light-gray);
-height: 100%;
-width: 100%;
-font-family: 'Outfit', sans-serif;
-display:flex;
-justify-content: center;
-align-items: center;
-padding: 20% 25%;
-
+    font-size: 0,9375rem;
+    background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 25%;
 }
 
 .container {
-    width:80%;
+    max-width:30vh;
     padding: 20px 20px ;
-    border-radius: 5px;
-    background-color: var(--white);
-    max-width: 375px;
+    border-radius: 30px;
+    background-color: var(--white); 
 }
 
 .card img {
-    width: 100%;
+    max-width:30vh;
     border-radius:5%;
 }
 
@@ -37,18 +34,13 @@ h2 {
     text-align: justify;
     padding: 0 25px;
     color: var(--dark-blue);
-
-
-
 }
 
 p {
     font-weight: 400;
     text-align: justify;
     padding: 0 25px;
-    color: var(--frayish-blue)
-    
-    
+    color: var(--frayish-blue)   
 }
 
-/* max-weight: 1440*/
+
