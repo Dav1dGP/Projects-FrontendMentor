@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body{
+    background-color: var(--yellow);
+    text-align: justify;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh
+}
+
+
+.container{
+    background-color: var(--white);
+    border: black 1px solid;
+    border-radius: 5%;
+    /* display:grid;
+    place-content: center;
+    min-width: 100vh;
+    align-items: center */;
+    box-shadow: 10px 10px 0px 0px #000000;
+    margin: 1em;
+    padding: 1em;
+}
+
+#img {
+    border-radius: 10%;
+    align-items: center;
+}
+
+#avatar{
+    width: 48px;
+    height: 48px;;
+}
+
+.tag {
+    background-color: var(--yellow);
+    font-weight: 800;
+    max-width: 10%;
+    border-radius: 10%;
+}
+
+h1{
+    font-weight: 800;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.date-published {
+    color: var(--black);
+}
+
+.author{
+    display: flex;
+    flex-direction: center;
+    
+}
+
+.text {
+    color: var(--grey);
+}
+
+.text-avatar{
+    margin: 1em;
+    font-weight: 800;
+}
+
+footer{
+    text-align: center;
+    place-content: botton ;
+}
+
+/* 
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800
+
+
+*/
