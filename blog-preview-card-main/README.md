@@ -16,7 +16,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![screenshot](./screenshot.jpg)
+![screenshot](Screenshot.jpg)
 
 ### Links
 
