@@ -32,4 +32,4 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@Dav1dGP](https://www.frontendmentor.io/profile/@Dav1dGP)
+- Frontend Mentor - [@Dav1dGP](https://www.frontendmentor.io/profile/Dav1dGP)
