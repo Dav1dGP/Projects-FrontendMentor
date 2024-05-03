@@ -73,7 +73,7 @@ p{
 
 .text {
     color: var(--grey);
-    text-align: center;
+    text-align: left;
 }
 
 .text-avatar{
