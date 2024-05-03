@@ -20,8 +20,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL ](https://github.com/Dav1dGP/Projects-FrontendMentor/tree/master/blog-preview-card-main)
+- Live Site URL: [Live site URL](https://6635062a783c730f4bf728de--thriving-puppy-f77eff.netlify.app/)
 
 ## My process
 
