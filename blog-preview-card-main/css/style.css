@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 :root{
     --yellow: hsl(47, 88%, 63%);
     --white: hsl(0, 0%, 100%);
@@ -16,16 +17,19 @@ body{
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    
+
 }
 
 .container{
     background-color: var(--white);
     border: black 1px solid;
     border-radius: 5%;
-    max-width: 80%;
     box-shadow: 10px 10px 0px 0px #000000;
     margin: 1em;
     padding: 1em;
+    width: 375px;
+    transform: scale(0.9)
 }
 
 #img {
@@ -88,7 +92,7 @@ footer{
 
 @media (min-width: 768px) {
     .container {
-        max-width: 375px; /
+        max-width: 375px;
     }
 }
 
