@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
+This is a solution to the [Blog preview card challenge on Frontend Mentor]().
 
 ## Table of contents
 
@@ -16,12 +16,12 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![screenshot](Screenshot.jpg)
+![screenshot]()
 
 ### Links
 
-- Solution URL: [Solution URL ](https://github.com/Dav1dGP/Projects-FrontendMentor/tree/master/blog-preview-card-main)
-- Live Site URL: [Live site URL](https://6635062a783c730f4bf728de--thriving-puppy-f77eff.netlify.app/)
+- Solution URL: [Solution URL ]()
+- Live Site URL: [Live site URL]()
 
 ## My process
 
