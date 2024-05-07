@@ -15,21 +15,20 @@ body{
     margin: 0;
     min-width: 100vw;
     min-height: 100vh;
+    display: flex;
     
     
 }
 
 .container{
     flex-direction: column;
-    align-items: center;
-    justify-content: center; 
+    text-align: center;
     background-color: var(--dark-grey);
     display:flex;
-    height: 100%;
-    width: 30%;
-    margin-top: 1em;
+    max-width: 80%;
+    margin: auto;
     border-radius: 3%;
-     
+    padding-bottom: 3em;
 }
 
 img{
@@ -77,29 +76,16 @@ nav > a:hover{
 }
 
 footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     text-align: center;
     color: var(--white);
     text-decoration: none;
     width: 100%;
+    padding: 1em 0;
+
 }
 
 footer > a{
     color: var(--white);
 }
-
-/*
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
-
-
-
-*/
