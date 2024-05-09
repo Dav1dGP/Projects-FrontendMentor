@@ -17,23 +17,100 @@
 body{
     background-color: var(--eggshell);
     font-family: "Outfit", sans-serif;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    
 }
 
 .container{
     background-color: var(--white);
     padding: 1.5em;
-    border-radius: 2%;
+    border-radius: 1%;
+    align-items: center;
+    width: 40%;
+    margin: 5em;
+
 }
 
 img{
-    width: 400px;
+    width: 100%;
     border-radius: 2%;
+}
+
+.introdution {
+    color: var(--wenge-brown);
 }
 
 .preparation{
     background-color: var(--rose-white);
     padding: 1em 1.2em;
     border-radius: 5%;
+}
+
+.preparation li, .ingredients li, .instructions li{
+    color: var(--wenge-brown);
+    padding-left: 1em;
+    
+}
+
+.preparation li::marker{
+    color: var(--dark-raspberry);
+}
+
+.ingredients {
+    border-bottom: 0.1em solid var(--light-grey);
+    
+}
+
+.ingredients ul{
+    padding-inline-start: 1.4em;
+}
+
+.ingredients li::marker{
+    color: var(--nutmeg);
+}
+
+.instructions{
+    border-bottom: 0.1em solid var(--light-grey);
+}
+
+.items {
+    color: var(--wenge-brown);
+    display: flex;
+    align-items: center;
+    padding-left: 0.2em;
+}
+
+.num {
+    color: var(--nutmeg);
+    font-weight: bold;
+    margin-right: 1em;  
+}
+
+
+.nutrition {
+    text-align: left;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+th{
+    padding-left: 1.5em;
+    font-weight: normal;
+    border-bottom: 0.1em solid var(--light-grey);
+    width: 13%;
+}
+
+
+.nutritional-values{
+    font-weight: 600;
+    color: var(--nutmeg);
+    border-bottom: 0.1em solid var(--light-grey);
+}
+
+tr:last-child td, tr:last-child th {
+    border-bottom: 0;
 }
 
 h1{
@@ -43,29 +120,21 @@ h1{
 
 h2{
     font-family: "Young Serif", serif;
-    font-weight: 600;
-    color: var(--nutmeg)
+    font-weight: 700;
+    color: var(--nutmeg);
 }
 
 h3{
     font-family: "Outfit", sans-serif;
-    color: var(--dark-raspberry)
+    color: var(--dark-raspberry);
 }
 
-/*
+.attribution{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 1em 0;
+}
 
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
-### Fonts
-
-- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
-- Weights: 400
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 600, 700
-
-*/
