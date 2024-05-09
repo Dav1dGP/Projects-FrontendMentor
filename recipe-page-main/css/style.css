@@ -1,30 +1,58 @@
-/* 
-# Front-end Style Guide
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
-## Layout
+:root{
+    /* Primary */
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    /* Neutral*/
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
 
-The designs were created to the following widths:
+body{
+    background-color: var(--eggshell);
+    font-family: "Outfit", sans-serif;
+}
 
-- Mobile: 375px
-- Desktop: 1440px
+.container{
+    background-color: var(--white);
+    padding: 1.5em;
+    border-radius: 2%;
+}
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+img{
+    width: 400px;
+    border-radius: 2%;
+}
 
-## Colors
+.preparation{
+    background-color: var(--rose-white);
+    padding: 1em 1.2em;
+    border-radius: 5%;
+}
 
-### Primary
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
 
-- Nutmeg: hsl(14, 45%, 36%)
-- Dark Raspberry: hsl(332, 51%, 32%)
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 600;
+    color: var(--nutmeg)
+}
 
-### Neutral
+h3{
+    font-family: "Outfit", sans-serif;
+    color: var(--dark-raspberry)
+}
 
-- White: hsl(0, 0%, 100%)
-- Rose White: hsl(330, 100%, 98%)
-- Eggshell: hsl(30, 54%, 90%)
-- Light Grey: hsl(30, 18%, 87%)
-- Wenge Brown: hsl(30, 10%, 34%)
-- Dark Charcoal: hsl(24, 5%, 18%)
+/*
 
 ## Typography
 
@@ -39,7 +67,5 @@ The designs were created to the following widths:
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 600, 700
-
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
 
 */
