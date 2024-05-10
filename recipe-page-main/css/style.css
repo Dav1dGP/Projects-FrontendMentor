@@ -18,8 +18,7 @@ body{
     background-color: var(--eggshell);
     font-family: "Outfit", sans-serif;
     margin: 0;
-    min-width: 100vw;
-    min-height: 100vh;
+    
     
 }
 
@@ -28,9 +27,11 @@ body{
     padding: 1.5em;
     border-radius: 1%;
     align-items: center;
-    width: 40%;
-    margin: 5em;
-
+    width: 60%;
+    margin: 5em auto;
+    max-width: 700px;
+    max-height: 100%;
+    
 }
 
 img{
@@ -107,6 +108,7 @@ th{
     font-weight: 600;
     color: var(--nutmeg);
     border-bottom: 0.1em solid var(--light-grey);
+    padding-left: 15em;
 }
 
 tr:last-child td, tr:last-child th {
@@ -130,7 +132,7 @@ h3{
 }
 
 .attribution{
-    position: fixed;
+    
     bottom: 0;
     text-align: center;
     text-decoration: none;
