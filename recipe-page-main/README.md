@@ -1,6 +1,6 @@
 # Frontend Mentor - Social Links Profile solution
 
-This is a solution to the [Social Links Profile challenge on Frontend Mentor]().
+This is a solution to the [Social Links Profile challenge on Frontend Mentor](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/6633444e20fb35b1b6726a5b/challenge/start).
 
 ## Table of contents
 
@@ -20,8 +20,8 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor]().
 
 ### Links
 
-- Solution URL: [Solution URL ]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [Solution URL ](https://github.com/Dav1dGP/Projects-FrontendMentor/tree/master/recipe-page-main)
+- Live Site URL: [Live site URL](https://663df6d8b3295fec7bf3fccb--hilarious-gecko-8b2b4a.netlify.app/)
 
 ## My process
 
