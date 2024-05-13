@@ -10,38 +10,41 @@
 </head>
 <body>
   <main>
-    <div class="image">
-      <img src="./images/drawers.jpg" alt="Image Drawers" >
+    <div class="contenedor">
+      <div class="image">
+        <img id="articleImagen" src="./images/drawers.jpg" alt="Image Drawers" >
+      </div>
+      <article class="articulo">
+        <div class="title">
+          <h1>Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home</h1>
+        </div>
+        <div class="text">
+          <p>Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.</p>
+        </div>
+        <div class="author">
+          <div class="avatar">
+            <img id="avatar" src="./images/avatar-michelle.jpg" alt="Avatar Michelle Appleton" >
+          </div>
+          <div class="name">
+            <p><strong>Michelle Appleton</strong></p>
+            <div class="date">
+              <p>28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="apartadoBotones">
+            <button onclick="mostrarDesplegable()" class="botonImageShare"></button>
+            <div id="desplegable" class="desplegable"><p>S H A R E</p>
+              <button onclick="redireccionar('https://www.facebook.com')" class="botonUrl1"></button>
+              <button onclick="redireccionar('https://www.twitter.com')" class="botonUrl2"></button>
+              <button onclick="redireccionar('https://www.pinterest.com')" class="botonUrl3"></button>
+            </div> 
+          </div>
+        </div>
+      </article>
     </div>
-    <article class="articulo">
-      <div class="title">
-        <h1>Shift the overall look and feel by adding these wonderful 
-          touches to furniture in your home</h1>
-      </div>
-      <div class="text">
-        <p>Ever been in a room and felt like something was missing? Perhaps 
-          it felt slightly bare and uninviting. I’ve got some simple tips 
-          to help you make any room feel complete.</p>
-      </div>
-      <div class="author">
-        <div class="avatar">
-          <img src="./images/avatar-michelle.jpg" alt="Avatar Michelle Appleton" >
-        </div>
-        <div class="name">
-          <p>Michelle Appleton</p>
-        </div>
-        <div class="date">
-          <p>28 Jun 2020</p>
-        </div>
-      </div>
-      <div class="apartadoBotones"></div>
-      <button onclick="mostrarDesplegable()" class="botonImageShare"></button>
-      <div id="desplegable" class="desplegable"><p>SHARE</p>
-        <button onclick="redireccionar('https://www.facebook.com')" class="botonUrl1"></button>
-        <button onclick="redireccionar('https://www.twitter.com')" class="botonUrl2">2</button>
-        <button onclick="redireccionar('https://www.pinterest.com')" class="botonUrl3">3</button>
-      </div> 
-    </article>
   </main>
 
   <footer>
@@ -49,6 +52,6 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">David Gaspar</a>.
     </div>
-</footer>
+  </footer>
 </body>
 </html>

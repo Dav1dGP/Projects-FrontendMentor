@@ -1,24 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 :root{
     --very-dark-grayish-blue: hsl(217, 19%, 35%);
     --desaturated-dark-blue: hsl(214, 17%, 51%);
     --grayish-blue: hsl(212, 23%, 69%);
-    --Light-grayish-blue: hsl(210, 46%, 95%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
 }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-grayish-blue);
+    font-family: "Manrope", sans-serif;
+    font-size: 0.8125em;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.contenedor{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    border-radius: 2%;
+    margin: 6em auto;
+    width: 60%;
+    max-width: 100vw;
+    max-height: 80vh;
+}
+
+.image{
+    width:40%;
+}
+
+.image img{
+    width:100%;
+    height: 100%;
+}
+
+.articulo {   
+    width: 60%;
+    padding: 20px;
+}
+
+h1{
+    font-weight: 700;
+    color: var(--very-dark-grayish-blue);
+}
+
+p{
+    font-weight: 500;
+    color: var(--desaturated-dark-blue);
+}
+
+
+.author{
+    display: flex;
+    flex-direction: center;
+    
+}
+
+#avatar {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.name > p{
+    
+    color: var(--very-dark-grayish-blue);
+    margin: 0;
+    padding: 0em 1rem;
+}
+
+.date > p{
+    color: var(--grayish-blue);
+    margin: 0;
+    padding: 0em 1rem;
+}
+
+
+
+.apartadoBotones{
+    margin-left: auto; /* Mueve los botones al final de la fila */
+    display: flex;
+    align-items: center;
+}
+
 
 .botonImageShare{
     background-image: url(/images/icon-share.svg);
     background-size: cover; /* Ajusta la imagen al tamaño del color*/
-    width: 15px;
-    height: 13px;
+    width: 30px;
+    height: 30px;
     border: none;
+    border-radius: 50%;
     cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 .desplegable{
-    display:none; /* Por defecto esta oculto */
-    position:absolute; /* Posicionamiento absoluto para superponer*/
+    display:none;
+    flex-direction: row; /* Por defecto esta oculto */
+    position:relative; /* Posicionamiento absoluto para superponer*/
     background-color: var(--very-dark-grayish-blue);
     min-width: 120px;
+    width: 200px;
+    height: 40px;
+    color: var(--grayish-blue);
     /* z-index: 1; */
 }
 
@@ -27,6 +121,39 @@
     background-size: cover;
     width: 20px;
     height: 20px;
+    background-color: var(--very-dark-grayish-blue);
+    border: none;
+    margin-right: 5px;
+}
+.botonUrl2{
+    background-image: url(/images/icon-twitter.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    background-color: var(--very-dark-grayish-blue);
+    border: none;
+}
+
+.botonUrl3{
+    background-image: url(/images/icon-pinterest.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    background-color: var(--very-dark-grayish-blue);
+    border: none;
+}
+
+
+
+
+
+
+.attribution{
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 1em 0;
 }
 
 /* 
@@ -39,28 +166,5 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
 
-## Colors
-
-
-
-## Typography
-
-### Body Copy
-
-- Font size: 13px
-
-### Headings
-
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Weights: 500, 700
-
-## Icons
-
-We provide SVGs for the social icons. But please feel free to use a font icon library if you like. Some suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)
 */
