@@ -13,9 +13,106 @@
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 
 body{
+    font-family: "Overpass", sans-serif;
     font-size:15px;
+    background-color: var(--very-dark-blue);
+    margin: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    font-family: inherit;
+}
+
+.main-container ,
+.thank-you{
+    background-color: var(--dark-blue);
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+}
+
+.main-container img{
+    background-color: hsl(213, 19%, 25%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.main-container h1{
+    color:var(--white);
+    margin: 2rem 0;
+
+}
+
+.main-container p{
+    color:var(--light-grey);
+    margin-bottom: 2rem;
+}
+
+.main-container ul{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.main-container ul li button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border:none;
+    background-color: hsl(213, 19%, 25%);
+    color: var(--white);
+    padding-top: 0.2rem;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.main-container ul li button:hover{
+    background-color: var(--orange);
+}
+
+.main-container ul li button:focus{
+    background-color: var(--light-grey);
+}
+
+.btn-submit{
+    background-color: var(--orange);
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 30px;
+    border:none;
+    color: var(--white);
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3rem;
+}
+
+.btn-submit:hover{
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.thank-you img{
+    display:block;
+    margin: 0 auto 0.3rem;
+
+}
+
+ul{
+    list-style-type: none;
 }
 /* 
 # Front-end Style Guide
@@ -30,14 +127,6 @@ The designs were created to the following widths:
 > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
 
 ## Colors
-
-
-
-
-
-
-
-
 
 ## Typography
 
