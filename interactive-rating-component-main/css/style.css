@@ -105,6 +105,8 @@ button {
     color: var(--orange);
 }
 
+
+
 .thank-you {
     display: flex;
     flex-direction: column;
@@ -135,6 +137,10 @@ button {
 .thank-you p{
     color: var(--light-grey);
     margin-bottom: 1rem;
+}
+
+.hidden {
+    display:none;
 }
 
 ul{
